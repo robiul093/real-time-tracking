@@ -8,7 +8,7 @@ if(navigator.geolocation){
     }, (error) => {
         console.log("Error", error)
     }, {
-        enableHighAccuracy: false,
+        enableHighAccuracy: true,
         timeout: 5000,
         maximumAge: 0
     })
